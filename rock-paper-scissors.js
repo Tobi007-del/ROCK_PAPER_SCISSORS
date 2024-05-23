@@ -2,7 +2,7 @@ var userChoice = prompt("Would you like to play a game of rock,paper,scissors?",
 if(userChoice.toLowerCase() === 'y' || userChoice.toUpperCase() === 'YES'){
   console.log("There are five rounds!!!");
   playGame()
-} else if(userChoice.toLowerCase() === 'n' || userChoice.toUpperCase() === 'NO'){
+} else if(userChoice.toLowerCase(cl) === 'n' || userChoice.toUpperCase() === 'NO'){
     console.log("Reload the page and type in y in case you change your mind");
 } else{
     console.log("I hope you change your mind!");
